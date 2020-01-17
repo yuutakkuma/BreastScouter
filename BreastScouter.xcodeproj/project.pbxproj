@@ -13,6 +13,7 @@
 		43532D0B23D2327300C01282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43532D0923D2327300C01282 /* Main.storyboard */; };
 		43532D0D23D2327600C01282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43532D0C23D2327600C01282 /* Assets.xcassets */; };
 		43532D1023D2327600C01282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43532D0E23D2327600C01282 /* LaunchScreen.storyboard */; };
+		43532D1823D232A000C01282 /* MyBreastImageClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 43532D1723D232A000C01282 /* MyBreastImageClassifier 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		43532D0C23D2327600C01282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43532D0F23D2327600C01282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43532D1123D2327600C01282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43532D1723D232A000C01282 /* MyBreastImageClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyBreastImageClassifier 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				43532D0923D2327300C01282 /* Main.storyboard */,
 				43532D0C23D2327600C01282 /* Assets.xcassets */,
 				43532D0E23D2327600C01282 /* LaunchScreen.storyboard */,
+				43532D1723D232A000C01282 /* MyBreastImageClassifier 1.mlmodel */,
 				43532D1123D2327600C01282 /* Info.plist */,
 			);
 			path = BreastScouter;
@@ -141,6 +144,7 @@
 				43532D0823D2327300C01282 /* ViewController.swift in Sources */,
 				43532D0423D2327300C01282 /* AppDelegate.swift in Sources */,
 				43532D0623D2327300C01282 /* SceneDelegate.swift in Sources */,
+				43532D1823D232A000C01282 /* MyBreastImageClassifier 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
